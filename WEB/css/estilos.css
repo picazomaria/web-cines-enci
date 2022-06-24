@@ -1,0 +1,209 @@
+body{
+ font-family: 'Roboto', sans-serif;
+ background-color:#004643 ;
+}
+.nav h1{
+  text-decoration: none;
+  font-family: 'Monaco';
+  color: #e16162;
+}
+h1, h2, h3{
+  text-align: center;
+}
+/* cookies */
+#cajacookies {
+  display: block;
+  box-shadow: 0px 0px 5px 5px #808080;
+  background-color: white;
+  color: black;
+  padding: 10px;
+ 
+  margin-top: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+#cajacookies button {
+  color: black;
+}
+/* navegador de inicio-----------------------*/
+
+.nav{
+  text-decoration:none;
+  background-color:#001e1d ;
+  color: white;
+  height: 70px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+.nav:hover{
+  text-decoration: none;
+  /*background-color: #4a5663;*/
+  color: #f9bc60;
+}
+/*.no-hover:hover{
+  background-color:#001e1d ;
+}*/
+
+.sub-menu input{
+  background-color: #242c35;
+  color: white;
+}
+
+
+.blanco-sucio{
+  background-color: #abd1c6;
+  padding-top: 3%;
+  padding-left: 4%;
+  padding-right: 3%;
+}
+.blanco-sucio:hover{
+  text-decoration: none;
+  background-color: #e16162;
+  color: white;
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}
+input[type=image]{
+  height: 450px;
+  width: 300px;
+  margin-right: auto;
+} 
+a{
+  text-decoration: none;
+  color: black;
+}
+/* sub menu de inicio */
+#sub-menu{
+  background-color: #636150;
+}
+
+/* final inicio sesion */
+.cover  {
+  display: flex;
+
+  align-items: center;
+}
+input[type="search"] {
+    flex-basis: 100%;
+  }
+#buton-ini{
+  width: 100px;
+  background:0;
+  color:white;
+  cursor:pointer;
+  transition:all .3s;
+   border: 1px solid #001e1;
+  border-radius: 2px;
+  outline: 0;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  transition: all .2s; 
+}
+#buton-ini:hover, #buton-ini:active, #buton-ini:focus{
+  background-color: #f9bc60;
+  color: white;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.sel-op select{
+  background: none;
+  border: none;
+  border-bottom: solid 2px #e8e4e6;
+  color: black;
+  width: 100%;
+
+}
+
+/* pie de pagina*/
+.final{
+  text-decoration: none;
+  background-color: #e8e4e6;
+  color: #242c35;
+
+}
+
+#buton-fin{
+  width: 100px;
+  border:1px solid ;
+  background-color: #f9bc60;
+  color:white;
+  cursor:pointer;
+  transition:all .3s;
+  border-radius: 2px;
+  outline: 0;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  transition: all .2s; 
+}
+#buton-fin:hover, #buton-fin:active, #buton-fin:focus{
+  background-color: #b6bec6;
+  color: black;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.fin-p{
+  color: #646363;
+  font-size: 14px;
+  line-height: 1;
+}
+.fin-i{
+  color: #646363;
+  font-size: 14px;
+  line-height: 2;
+}
+.fin-f{
+  color: #878787;
+  font-size: 12px;
+}
+.fin-titulos{
+  font-size: 15px;
+  color: #001e1d;
+}
+#inscribirse{
+  border: 1px solid  #8e8b8b;
+  width: 55%;
+  height: 11%;
+  outline: none;
+  font-size: 14px;
+}
+#raya{
+  border-bottom: 2px solid #565656;
+}
+.c-cookies{
+  border: 0;
+  background-color: none;
+}
+/* peliculas-------------------------- */
+.peli-fon{
+  background-color: #abd1c6;
+  text-decoration: none;
+  animation: ani9 0.4s ease-in-out infinite alternate;
+  border: 1px solid  #b4b4b4 ;
+}
+.peli-titulo{
+  text-transform: uppercase;
+}
+/* inicio de sesion -------------------------------*/
+.socios-form{
+  background-color: #004643;
+  margin-left: 10px;
+  padding-right: 50px;
+  text-align: center;
+}
+.socios-ini{
+  background-color: white;
+}
+@media (max-width:960px) {
+  .peli-fon{
+    padding-left: 5px;
+  }
+}
+
+
+
+
+
+/*empleados --------------------------------------------*/
