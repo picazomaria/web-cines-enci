@@ -18,6 +18,12 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 -- Proyecto María Picazo Sánchez
+-- Creación de usuario
+--
+CREATE USER 'asix'@'localhost' IDENTIFIED VIA mysql_native_password USING '***';
+GRANT ALL PRIVILEGES ON *.* TO 'asix'@'localhost' REQUIRE NONE WITH GRANT OPTION MAX_QUERIES_PER_HOUR 0 
+MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;GRANT ALL PRIVILEGES ON `cine`.* TO 'asix'@'localhost'; 
+
 -- Base de datos: `cine`
 --
 CREATE DATABASE IF NOT EXISTS `cine` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
